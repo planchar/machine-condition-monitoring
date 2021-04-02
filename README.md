@@ -8,26 +8,28 @@ The provided dataset was the [MIMII Dataset](https://zenodo.org/record/3384388):
 
 The project had the following phases:
 1. Exploring the digital signal processing domain
-1. Getting the dataset
-1. Extracting features from the audio to train the model on
-1. Evaluating and finetuning
-1. Presenting the results
+2. Getting the dataset
+3. Extracting features from the audio to train the model on
+4. Evaluating and finetuning
+5. Presenting the results
 
 ## Getting Started
 
 ### Repository Outline
 
-This repo contains some tools we used in each phase.
+The repository contains some tools we used during each phase.
 
-#### Exploring the digital signal processing domain
+#### 1. Exploring the digital signal processing domain
 
-This is further elaborated on in the [resources](#Resources) section below.
+The information resources we used to gain more insight into the project are further elaborated on in the [resources](#Resources) section below.
 
-#### Getting the dataset
+#### 2. Getting the dataset
 
-To help download the dataset, some scripts and guidance is provided in the [preparation.md file](./setup/preparation.md) in the setup folder.
+As stated above, we worked with the [MIMII Dataset](https://zenodo.org/record/3384388).
 
-#### Extracting features from the audio to train the model on
+To help download the complete dataset, some scripts and guidance is provided in the [preparation.md file](./setup/preparation.md) in the setup folder.
+
+#### 3. Extracting features from the audio to train the model on
 
 We chose to save the features we extracted into a csv file to be able to easily import them in a Pandas DataFrame later on.
 
@@ -37,11 +39,11 @@ To calculate the features on the unzipped data, we used a python script that can
 
 Initially, we imported audioparser.py in a Jupyter notebook to create the dataframe. Our final goal was to make the file able to produce a csv output file by itself, but due to time constraints we weren't able to implement that improvement.
 
-#### Evaluating and finetuning
+#### 4. Evaluating and finetuning
 
 For this step we used a Jupyter notebook that is to be included.
 
-#### Presenting the results
+#### 5. Presenting the results
 
 Our final presentation is not included in this repository.
 
